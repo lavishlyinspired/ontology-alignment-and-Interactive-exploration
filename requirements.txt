@@ -1,0 +1,6 @@
+python-dotenv
+pandas
+yfiles-jupyter-graphs
+ipywidgets
+jupyterlab_widgets
+neo4j
