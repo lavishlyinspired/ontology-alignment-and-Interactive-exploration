@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ex="http://app.thrombus.eu/ontology/physiotherapy#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://app.thrombus.eu/ontology/physiotherapy#HeelSlide">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <ex:exerciseID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HeelSlide</ex:exerciseID>
+    <rdfs:label>Heel Slide Exercise</rdfs:label>
+    <ex:description>An exercise to improve knee mobility and flexibility in the early stages of post-surgery rehab.</ex:description>
+    <ex:category rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseCategory"/>
+    <ex:subcategory rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseSubcategory"/>
+    <ex:bodyPart rdf:resource="http://purl.org/sig/ont/fma#24979"/>
+    <ex:primaryMusclesEngaged rdf:resource="http://purl.org/sig/ont/fma#49007"/>
+    <ex:jointMovements rdf:resource="http://who.int/icf#joint_flexion"/>
+    <ex:jointMovements rdf:resource="http://who.int/icf#joint_extension"/>
+    <ex:therapeuticGoal rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <ex:conditionsAddressed rdf:resource="http://snomed.info/id/195967001"/>
+    <ex:ICFCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICF-b7700</ex:ICFCode>
+    <ex:difficultyLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:difficultyLevel>
+    <ex:instructions>Slide your heel towards your buttocks, then straighten your leg.</ex:instructions>
+    <ex:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 minute</ex:duration>
+    <ex:repetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:repetitions>
+    <ex:sets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:sets>
+    <ex:restPeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 seconds</ex:restPeriod>
+    <ex:equipmentRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ex:equipmentRequired>
+    <ex:precautions>Stop if there is significant knee pain.</ex:precautions>
+    <ex:commonErrors>Avoid sliding too quickly.</ex:commonErrors>
+    <ex:progressionCriteria>Increase range of motion as tolerated.</ex:progressionCriteria>
+    <ex:painLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:painLevel>
+    <ex:fatigueLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:fatigueLevel>
+    <ex:patientReportedOutcome>Patient experiences increased knee flexibility.</ex:patientReportedOutcome>
+    <ex:intensityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:intensityLevel>
+    <dcterms:source>Post-Surgical Rehabilitation Guide</dcterms:source>
+    <dcterms:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateCreated>
+    <dcterms:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateModified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://app.thrombus.eu/ontology/physiotherapy#StraightLegRaise">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <ex:exerciseID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StraightLegRaise</ex:exerciseID>
+    <rdfs:label>Straight Leg Raise Exercise</rdfs:label>
+    <ex:description>An exercise to strengthen the hip flexors and quadriceps.</ex:description>
+    <ex:category rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseCategory"/>
+    <ex:subcategory rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseSubcategory"/>
+    <ex:bodyPart rdf:resource="http://purl.org/sig/ont/fma#24979"/>
+    <ex:primaryMusclesEngaged rdf:resource="http://purl.org/sig/ont/fma#49007"/>
+    <ex:jointMovements rdf:resource="http://who.int/icf#joint_extension"/>
+    <ex:therapeuticGoal rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <ex:conditionsAddressed rdf:resource="http://snomed.info/id/195967001"/>
+    <ex:ICFCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICF-b7700</ex:ICFCode>
+    <ex:difficultyLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:difficultyLevel>
+    <ex:instructions>Lie on your back, keep one leg bent and the other straight, and lift the straight leg off the ground.</ex:instructions>
+    <ex:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 minute</ex:duration>
+    <ex:repetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:repetitions>
+    <ex:sets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:sets>
+    <ex:restPeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 seconds</ex:restPeriod>
+    <ex:equipmentRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ex:equipmentRequired>
+    <ex:precautions>Avoid if there is back pain.</ex:precautions>
+    <ex:commonErrors>Avoid arching the back.</ex:commonErrors>
+    <ex:progressionCriteria>Increase hold duration as tolerated.</ex:progressionCriteria>
+    <ex:painLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ex:painLevel>
+    <ex:fatigueLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</ex:fatigueLevel>
+    <ex:patientReportedOutcome>Patient experiences improved hip and knee strength.</ex:patientReportedOutcome>
+    <ex:intensityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:intensityLevel>
+    <dcterms:source>Post-Surgical Rehabilitation Guide</dcterms:source>
+    <dcterms:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateCreated>
+    <dcterms:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateModified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://app.thrombus.eu/ontology/physiotherapy#QuadSet">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <ex:exerciseID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QuadSet</ex:exerciseID>
+    <rdfs:label>Quad Set Exercise</rdfs:label>
+    <ex:description>An exercise to strengthen the quadriceps muscle, important in post-surgery rehabilitation.</ex:description>
+    <ex:category rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseCategory"/>
+    <ex:subcategory rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseSubcategory"/>
+    <ex:bodyPart rdf:resource="http://purl.org/sig/ont/fma#24979"/>
+    <ex:primaryMusclesEngaged rdf:resource="http://purl.org/sig/ont/fma#49007"/>
+    <ex:jointMovements rdf:resource="http://who.int/icf#joint_extension"/>
+    <ex:therapeuticGoal rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <ex:conditionsAddressed rdf:resource="http://snomed.info/id/195967001"/>
+    <ex:ICFCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICF-b7700</ex:ICFCode>
+    <ex:difficultyLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:difficultyLevel>
+    <ex:instructions>Tighten the quadriceps muscle by pushing the back of the knee down toward the floor.</ex:instructions>
+    <ex:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 seconds</ex:duration>
+    <ex:repetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:repetitions>
+    <ex:sets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:sets>
+    <ex:restPeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 seconds</ex:restPeriod>
+    <ex:equipmentRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ex:equipmentRequired>
+    <ex:precautions>Avoid if feeling discomfort in the knee.</ex:precautions>
+    <ex:commonErrors>Avoid lifting the heel off the floor.</ex:commonErrors>
+    <ex:progressionCriteria>Hold contractions for longer durations over time.</ex:progressionCriteria>
+    <ex:painLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ex:painLevel>
+    <ex:fatigueLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:fatigueLevel>
+    <ex:patientReportedOutcome>Patient feels improved strength in the quadriceps.</ex:patientReportedOutcome>
+    <ex:intensityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:intensityLevel>
+    <dcterms:source>Post-Surgical Rehabilitation Guide</dcterms:source>
+    <dcterms:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateCreated>
+    <dcterms:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateModified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://app.thrombus.eu/ontology/physiotherapy#GluteBridge">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <ex:exerciseID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GluteBridge</ex:exerciseID>
+    <rdfs:label>Glute Bridge Exercise</rdfs:label>
+    <ex:description>An exercise to activate and strengthen the gluteal muscles and improve hip stability.</ex:description>
+    <ex:category rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseCategory"/>
+    <ex:subcategory rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseSubcategory"/>
+    <ex:bodyPart rdf:resource="http://purl.org/sig/ont/fma#24979"/>
+    <ex:primaryMusclesEngaged rdf:resource="http://purl.org/sig/ont/fma#48946"/>
+    <ex:jointMovements rdf:resource="http://who.int/icf#joint_extension"/>
+    <ex:therapeuticGoal rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <ex:conditionsAddressed rdf:resource="http://snomed.info/id/195967001"/>
+    <ex:ICFCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICF-b7700</ex:ICFCode>
+    <ex:difficultyLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:difficultyLevel>
+    <ex:instructions>Lie on your back, knees bent, and lift your hips towards the ceiling.</ex:instructions>
+    <ex:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 minute</ex:duration>
+    <ex:repetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ex:repetitions>
+    <ex:sets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:sets>
+    <ex:restPeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 seconds</ex:restPeriod>
+    <ex:equipmentRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ex:equipmentRequired>
+    <ex:precautions>Avoid overextending the lower back.</ex:precautions>
+    <ex:commonErrors>Avoid lifting the shoulders off the floor.</ex:commonErrors>
+    <ex:progressionCriteria>Increase repetitions or hold at the top as tolerated.</ex:progressionCriteria>
+    <ex:painLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ex:painLevel>
+    <ex:fatigueLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</ex:fatigueLevel>
+    <ex:patientReportedOutcome>Patient reports better control and strength in glutes and hips.</ex:patientReportedOutcome>
+    <ex:intensityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:intensityLevel>
+    <dcterms:source>Post-Surgical Rehabilitation Guide</dcterms:source>
+    <dcterms:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateCreated>
+    <dcterms:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateModified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://app.thrombus.eu/ontology/physiotherapy#AnklePump">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <ex:exerciseID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AnklePump</ex:exerciseID>
+    <rdfs:label>Ankle Pump Exercise</rdfs:label>
+    <ex:description>An exercise to encourage blood flow in the lower limbs, helping prevent DVT post-surgery.</ex:description>
+    <ex:category rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseCategory"/>
+    <ex:subcategory rdf:resource="http://purl.bioontology.org/ontology/OPE/ExerciseSubcategory"/>
+    <ex:bodyPart rdf:resource="http://purl.org/sig/ont/fma#24979"/>
+    <ex:primaryMusclesEngaged rdf:resource="http://purl.org/sig/ont/fma#9621"/>
+    <ex:primaryMusclesEngaged rdf:resource="http://purl.org/sig/ont/fma#9620"/>
+    <ex:jointMovements rdf:resource="http://who.int/icf#joint_flexion"/>
+    <ex:jointMovements rdf:resource="http://who.int/icf#joint_extension"/>
+    <ex:therapeuticGoal rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <ex:conditionsAddressed rdf:resource="http://snomed.info/id/195967001"/>
+    <ex:ICFCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICF-b7700</ex:ICFCode>
+    <ex:difficultyLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:difficultyLevel>
+    <ex:instructions>While lying or sitting, point and flex feet slowly, repeating the movement.</ex:instructions>
+    <ex:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 minute</ex:duration>
+    <ex:repetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ex:repetitions>
+    <ex:sets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:sets>
+    <ex:restPeriod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 seconds</ex:restPeriod>
+    <ex:equipmentRequired rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</ex:equipmentRequired>
+    <ex:precautions>Avoid if experiencing sharp pain or recent clotting issues.</ex:precautions>
+    <ex:commonErrors>Avoid sudden jerky movements.</ex:commonErrors>
+    <ex:progressionCriteria>Increase repetitions gradually as tolerated.</ex:progressionCriteria>
+    <ex:painLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ex:painLevel>
+    <ex:fatigueLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low to moderate</ex:fatigueLevel>
+    <ex:patientReportedOutcome>Patient feels improved circulation in legs.</ex:patientReportedOutcome>
+    <ex:intensityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</ex:intensityLevel>
+    <dcterms:source>Post-Surgical Rehabilitation Guide</dcterms:source>
+    <dcterms:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateCreated>
+    <dcterms:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-12</dcterms:dateModified>
+  </rdf:Description>
+</rdf:RDF>
